@@ -1,0 +1,33 @@
+        # # stop the tick counter for computing the processing time for each frame
+        # e2 = cv2.getTickCount()
+        # # processign time in milliseconds
+        # proc_time_frame_ms = ((e2 - e1) / cv2.getTickFrequency()) * 1000
+        # # print fps and processing time per frame on screen
+        # if args.show_fps:
+        #     cv2.putText(
+        #         frame,
+        #         "FPS:" + str(round(fps)),
+        #         (10, 400),
+        #         cv2.FONT_HERSHEY_PLAIN,
+        #         2,
+        #         (255, 0, 255),
+        #         1,
+        #     )
+        # if args.show_proc_time:
+        #     cv2.putText(
+        #         frame,
+        #         "PROC. TIME FRAME:" + str(round(proc_time_frame_ms, 0)) + "ms",
+        #         (10, 430),
+        #         cv2.FONT_HERSHEY_PLAIN,
+        #         2,
+        #         (255, 0, 255),
+        #         1,
+        #     )
+
+        # time_in_sec = FRAME_NUM / FPS 
+
+        # FRAME_NUM += 1
+        # To improve performance, optionally mark the image as not writeable to
+        # pass by reference.
+        # image.flags.writeable = False
+
